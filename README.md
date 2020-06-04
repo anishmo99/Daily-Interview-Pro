@@ -3,6 +3,13 @@
 <div>
  Reverse a Linked List: 
  <ul>
-  <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/reverseLinkedList.py"> Reverse a Linked List in Python</a></li>
-  <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/reverseLinkedList.cpp">Reverse a Linked List in CPP</a></li></ul>
+  <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/reverseLinkedList.py">Python</a></li>
+  <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/reverseLinkedList.cpp">CPP</a></li></ul>
 </div>
+<div>
+ Validate Balanced Parentheses: 
+ <ul>
+  <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/validateBalancedParentheses.py">Python</a></li>
+  <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/validateBalancedParentheses.cpp">CPP</a></li></ul>
+</div>
+
