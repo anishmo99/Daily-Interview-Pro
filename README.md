@@ -12,4 +12,9 @@
   <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/validateBalancedParentheses.py">Python</a></li>
   <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/validateBalancedParentheses.cpp">CPP</a></li></ul>
 </div>
+Sort a List with 3 Unique Numbers: 
+ <ul>
+  <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/sort3UniqueNumbers.py">Python</a></li>
+  <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/sort3UniqueNumbers.cpp">CPP</a></li></ul>
+</div>
 
