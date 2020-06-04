@@ -33,12 +33,4 @@
 	  <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/sort3UniqueNumbers.cpp">CPP</a></li></ul>
 	</div>
 </li>
-<li>
-	<div>
-	First and Last Indices of Element in a Sorted Array: 
-	 <ul>
-	  <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/firstAndLastIndicesOfElementInSortedArray.py">Python</a></li>
-	  <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/firstAndLastIndicesOfElementInSortedArray.cpp">CPP</a></li></ul>
-	</div>
-</li>
 </ol>
