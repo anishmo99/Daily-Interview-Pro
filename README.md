@@ -27,10 +27,10 @@
 </li>
 <li>
 	<div>
-	Sort a List with 3 Unique Numbers: 
+	First and Last Indices of an Element in a Sorted Array: 
 	 <ul>
-	  <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/sort3UniqueNumbers.py">Python</a></li>
-	  <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/sort3UniqueNumbers.cpp">CPP</a></li></ul>
+	  <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/firstAndLastIndicesOfElementInSortedArray.py">Python</a></li>
+	  <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/firstAndLastIndicesOfElementInSortedArray.cpp">CPP</a></li></ul>
 	</div>
 </li>
 </ol>
