@@ -11,8 +11,7 @@ int nonDuplicateNumber(int arr[],int n)
             return arr[i];
         i++;
     }
-        
-        return arr[n-1];
+    return arr[n-1];
 }
 
 int main()
