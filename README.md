@@ -33,4 +33,12 @@
 	  <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/firstAndLastIndicesOfElementInSortedArray.cpp">CPP</a></li></ul>
 	</div>
 </li>
+<li>
+    <div>
+    Two Sum: 
+     <ul>
+      <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/twoSum.py">Python</a></li>
+      <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/twoSum.cpp">CPP</a></li></ul>
+    </div>
+</li>
 </ol>
