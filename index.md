@@ -339,7 +339,7 @@ def two_sum(list, target):
 print(two_sum([4,7,1,-3,2], 5)) #True
 print(two_sum([4,7,1,-3,2],10)) #False
 ~~~
-      <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/twoSum.cpp">CPP</a></li>
+  <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/twoSum.cpp">CPP</a></li>
 
 ~~~cpp
 #include <iostream>
