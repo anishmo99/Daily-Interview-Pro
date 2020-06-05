@@ -7,7 +7,7 @@
 	 <ul>
 	  <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/reverseLinkedList.py">Python</a></li>
 
-```python
+~~~python
 class ListNode(object):
   def __init__(self, x):
     self.val = x
@@ -58,10 +58,10 @@ testHead.reverseIteratively(testHead)
 print("List after reversal: ")
 testTail.printList()
 # 0 1 2 3 4
-```
+~~~
 <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/reverseLinkedList.cpp">CPP</a></li></ul>
 
-```cpp
+~~~cpp
 struct Node {
   int data;
   struct Node *next;
@@ -85,7 +85,7 @@ Node* reverseList(Node *head)
   return head;
 }
 
-```
+~~~
 
 </div>
 </li>
@@ -95,7 +95,7 @@ Node* reverseList(Node *head)
 	 <ul>
 	  <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/validateBalancedParentheses.py">Python</a></li>
 
-```python
+~~~python
 def validateBalancedParentheses(str):
     stack=[]
     for i in str:
@@ -118,11 +118,11 @@ def validateBalancedParentheses(str):
     return True if len(stack)==0 else False
 str=input()
 print(validateBalancedParentheses(str))
-```
+~~~
 
   <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/validateBalancedParentheses.cpp">CPP</a></li></ul>
 
-```cpp
+~~~cpp
 #include <iostream>
 #include <stack>
 using namespace std;
@@ -168,9 +168,9 @@ int main()
     getline(cin,s);
     cout<<validateBalancedParentheses(s)<<endl;
 }
-```
+~~~
 
-	</div>
+</div>
 </li>
 <li>
 	<div>
@@ -178,7 +178,7 @@ int main()
 	 <ul>
 	  <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/sort3UniqueNumbers.py">Python</a></li>
 
-```python
+~~~python
 def sortNums(nums):
     c1,c2,c3=0,0,0
     for i in nums:
@@ -193,11 +193,11 @@ def sortNums(nums):
 
 print(sortNums([3, 3, 2, 1, 3, 2, 1]))
 # [1, 1, 2, 2, 3, 3, 3]
-```
+~~~
 
   <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/sort3UniqueNumbers.cpp">CPP</a></li></ul>
 
-```cpp
+~~~cpp
 #include <iostream>
 #include <vector>
 
@@ -233,7 +233,7 @@ int main()
     for(int i:vec)
         cout<<i<<" ";
 }
-```
+~~~
 
 </div>
 </li>
@@ -243,7 +243,7 @@ int main()
 	 <ul>
 	  <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/firstAndLastIndicesOfElementInSortedArray.py">Python</a></li>
 
-```python
+~~~python
 class Solution:
   def getRange(self, arr, target):
     if target not in arr:
@@ -268,11 +268,11 @@ arr = [1, 2, 2, 2, 2, 3, 4, 7, 8, 8]
 x = 2
 print(Solution().getRange(arr, x))
 # [1, 4]
-```
+~~~
 
   <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/firstAndLastIndicesOfElementInSortedArray.cpp">CPP</a></li></ul>
 
-```cpp
+~~~cpp
 #include <iostream>
 using namespace std;
 
@@ -316,7 +316,7 @@ int main() {
     }
     return 0;
 }
-```
+~~~
 
 </div>
 </li>
@@ -326,7 +326,7 @@ int main() {
      <ul>
       <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/twoSum.py">Python</a></li>
 
-```python
+~~~python
 def two_sum(list, target):
     s=set()
     for i in list:
@@ -338,10 +338,10 @@ def two_sum(list, target):
 
 print(two_sum([4,7,1,-3,2], 5)) #True
 print(two_sum([4,7,1,-3,2],10)) #False
-```
+~~~
       <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/twoSum.cpp">CPP</a></li>
 
-```cpp
+~~~cpp
 #include <iostream>
 #include <set>
 using namespace std;
@@ -369,7 +369,7 @@ int main()
         cin>>arr[i];
     cout<<twoSum(arr,n,target)<<endl;
 }
-```
+~~~
 </ul>
 </div>
 </li>
