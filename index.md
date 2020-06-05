@@ -391,4 +391,109 @@ int main()
 </ul>
 </div>
 </li>
+<li>
+    <div>
+    Longest Palindromic Substring: 
+     <ul>
+      <li><a href="https://github.com/anishmo99/Daily-Interview-Pro/blob/master/longestPalindromicSubstring.py">Python</a></li>
+
+~~~python
+def longestPalindromicSubstring(str):
+    n=len(str)
+    dp=[[0 for x in range(n)] for y in range(n)]
+    maxlength,start=1,0
+    
+    for i in range(n):
+        dp[i][i]=True
+    
+    i=0
+    while i<n-1:
+        if str[i]==str[i+1]:
+            dp[i][i+1]=True
+            start=i
+            maxlength=2
+        i+=1
+        
+    k=3
+    while k<=n:
+        i=0
+        while i<=n-k:
+            j=i+k-1
+            if str[i]==str[j] and dp[i+1][j-1]==True:
+                dp[i][j]=True
+                if maxlength<k:
+                    start=i
+                    maxlength=k
+            i+=1
+        k+=1
+    print(str[start:start+maxlength])
+    
+str=input()
+longestPalindromicSubstring(str)
+        
+~~~
+  <li><a href="https://github.com/anishmo99/Daily-Interview-Pro/blob/master/longestPalindromicSubstring.cpp">CPP</a></li>
+
+~~~cpp
+#include <cstring>
+#include <iostream>
+using namespace std;
+
+string longestPalindromicSubstring(string s)
+{
+    if(s.empty()||s=="")
+        return "";
+    
+    int len=s.length();
+    int start=0,maxlength=1;
+    
+    bool dp[n][n];
+    memset(dp,0,sizeof(dp));
+    
+    for(int i=0;i<len;i++)
+        dp[i][i]=true;
+    
+    for(int i=0;i<len-1;i++)
+        if(s[i]==s[i+1])
+        {
+            dp[i][i+1]=true;
+            start = i;
+            maxlength=2;
+        }
+    
+    for(int k=3;k<=len;k++)
+    {
+        for(int i=0;i<=len-k;i++)
+        {
+            int j=i+k-1;
+            if(s[i]==s[j]&&dp[i+1][j-1])
+            {
+                dp[i][j]=true;
+                if(maxlength<k)
+                {
+                    start=i;
+                    maxlength=k;
+                }
+            }
+        }
+    }
+    return s.substr(start,maxlength);
+}
+
+int main()
+{
+    int cases;
+    cin>>cases;
+    while(cases--)
+    {
+        string str;
+        cin>>str;
+        cout<<longestPalindromicSubstring(str)<<endl;
+    }
+    return 0;
+}
+~~~
+</ul>
+</div>
+</li>
 </ol>
