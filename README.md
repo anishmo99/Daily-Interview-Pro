@@ -59,8 +59,7 @@ print("List after reversal: ")
 testTail.printList()
 # 0 1 2 3 4
 ```
-
-	  <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/reverseLinkedList.cpp">CPP</a></li></ul>
+<li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/reverseLinkedList.cpp">CPP</a></li></ul>
 
 ```cpp
 struct Node {
@@ -88,7 +87,7 @@ Node* reverseList(Node *head)
 
 ```
 
-	</div>
+</div>
 </li>
 <li>
 	<div>
@@ -121,7 +120,7 @@ str=input()
 print(validateBalancedParentheses(str))
 ```
 
-	  <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/validateBalancedParentheses.cpp">CPP</a></li></ul>
+  <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/validateBalancedParentheses.cpp">CPP</a></li></ul>
 
 ```cpp
 #include <iostream>
@@ -196,7 +195,7 @@ print(sortNums([3, 3, 2, 1, 3, 2, 1]))
 # [1, 1, 2, 2, 3, 3, 3]
 ```
 
-	  <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/sort3UniqueNumbers.cpp">CPP</a></li></ul>
+  <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/sort3UniqueNumbers.cpp">CPP</a></li></ul>
 
 ```cpp
 #include <iostream>
@@ -236,7 +235,7 @@ int main()
 }
 ```
 
-	</div>
+</div>
 </li>
 <li>
 	<div>
@@ -271,7 +270,7 @@ print(Solution().getRange(arr, x))
 # [1, 4]
 ```
 
-	  <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/firstAndLastIndicesOfElementInSortedArray.cpp">CPP</a></li></ul>
+  <li><a href="https://github.com/anishmo99/DailyInterviewPro/blob/master/firstAndLastIndicesOfElementInSortedArray.cpp">CPP</a></li></ul>
 
 ```cpp
 #include <iostream>
@@ -319,7 +318,7 @@ int main() {
 }
 ```
 
-	</div>
+</div>
 </li>
 <li>
     <div>
