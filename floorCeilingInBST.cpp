@@ -82,7 +82,7 @@ int main()
         2     6 9      12
     */
 
-    int keys[] = { 2, 4, 6, 8, 9, 10, 12 };
+    int keys[] = { 8, 4, 2, 6, 10, 9, 12 };
 
     Node* root = nullptr;
     for (int key : keys)
@@ -101,22 +101,3 @@ int main()
 
     return 0;
 }
-
-/*
- anishmookherjee@Anishs-MacBook-Air dailyinterviewpro % ./a.out
-  0 -->   -1   2
-  1 -->   -1   2
-  2 -->    2   2
-  3 -->    2   4
-  4 -->    4   4
-  5 -->    4   6
-  6 -->    6   6
-  7 -->    6   8
-  8 -->    8   8
-  9 -->    9   9
- 10 -->   10  10
- 11 -->   10  12
- 12 -->   12  12
- 13 -->   12  -1
- 14 -->   12  -1
- */
