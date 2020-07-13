@@ -4,3 +4,5 @@ test.py
 test.cpp
 .vscode/settings.json
 test (1).py
+.gitignore (1)
+*.xml
