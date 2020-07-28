@@ -3,25 +3,25 @@ def findRanges(nums):
     if len(nums) == 0 or len(nums) == 1:
         return nums
     
-    temp = []
+    # temp = nums
     
-    [temp.append(x) for x in nums if x not in temp]
+    # [temp.append(x) for x in nums if x not in temp]
     
     i,j = 0,1
-    prev, cur = temp[i],temp[j]
+    prev, cur = nums[i],nums[j]
     
-    while j < len(temp):
-        if prev+1 == cur:
+    while j < len(nums):
+        if prev+1 == cur or prev == cur:
            prev = cur 
         else:
-            sol.append([temp[i],prev])
+            sol.append([nums[i],prev])
             i = j
             prev = cur
         j += 1
-        if j < len(temp):
-            cur = temp[j]
+        if j < len(nums):
+            cur = nums[j]
     
-    sol.append([temp[i],prev])
+    sol.append([nums[i],prev])
     
     return sol
 
