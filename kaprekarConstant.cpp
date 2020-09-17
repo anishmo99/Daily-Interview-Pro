@@ -5,6 +5,8 @@ using namespace std;
 
 int kaprekar(int n)
 {
+    if (!n)
+        return -1;
     int counter = 0;
     while (n != 6174)
     {
@@ -27,15 +29,16 @@ int kaprekar(int n)
 
         sort(digits.begin(), digits.end(), greater<int>());
 
-        bool padding = digits.size() < 4;
-
         for (int i = 0; i < digits.size(); i++)
         {
             desc = desc * 10 + digits[i];
         }
 
-        if (padding)
+        while (digits.size() < 4)
+        {
+            digits.push_back(0);
             desc *= 10;
+        }
 
         int diff = abs(desc - asc);
 
@@ -53,3 +56,5 @@ int main()
     cin >> n;
     cout << kaprekar(n);
 }
+
+// n = 981
