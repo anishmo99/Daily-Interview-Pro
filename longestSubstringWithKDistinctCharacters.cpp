@@ -41,3 +41,5 @@ int main()
         cout << longestSubstringWithKDistinctCharacters(str, k) << endl;
     }
 }
+
+// given "abcbbbbcccbdddadacb", the longest substring that contains 2 unique character is "bcbbbbcccb".
