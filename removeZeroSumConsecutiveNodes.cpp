@@ -8,38 +8,45 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
-class Solution {
+class Solution
+{
 public:
-    ListNode* removeZeroSumSublists(ListNode* head) {
-        if(head==NULL){
-            return NULL;
-        }
-        ListNode* dummy=new ListNode(0);
-        map<int,ListNode*>m;
-        dummy->next=head;
-    m[0]=dummy;
-         
-        ListNode*temp=head;
-        int prevsum=0;
-        while(temp!=NULL){
-            prevsum+=temp->val;
-            if(m.find(prevsum)!=m.end()){
-                int sum=prevsum;
-                ListNode*temp2=m[prevsum];
-                while(temp2!=NULL&&temp2!=temp){
-                    temp2=temp2->next;
-                    sum+=temp2->val;
-                    if(temp2!=temp){
-                        m.erase(sum);
-                    }
+    ListNode *removeZeroSumSublists(ListNode *head)
+    {
+        ListNode *dummy = new ListNode(0);
+
+        map<int, ListNode *> map;
+
+        map[0] = dummy;
+        dummy->next = head;
+
+        ListNode *ptr = head;
+
+        int sum = 0;
+        while (ptr)
+        {
+            sum += ptr->val;
+            if (map.find(sum) != map.end())
+            {
+                ListNode *ptr2 = map[sum];
+
+                int cur_sum = sum;
+                while (ptr2 and ptr2 != ptr)
+                {
+                    ptr2 = ptr2->next;
+                    cur_sum += ptr2->val;
+                    if (ptr2 != ptr)
+                        map.erase(cur_sum);
                 }
-                m[prevsum]->next=temp->next;
+                map[sum]->next = ptr->next;
             }
-            else{
-                m[prevsum]=temp;
+            else
+            {
+                map[sum] = ptr;
             }
-            temp=temp->next;
-            
+            ptr = ptr->next;
         }
-        return dummy->next;}
+
+        return dummy->next;
+    }
 };
