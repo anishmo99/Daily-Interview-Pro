@@ -8,3 +8,4 @@ test (1).py
 *.xml
 test.py
 a.out
+test.cpp
